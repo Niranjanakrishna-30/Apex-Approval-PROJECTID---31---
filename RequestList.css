@@ -1,0 +1,100 @@
+
+.container4{
+    flex-grow: 0;
+    border-style: solid;
+    border-color: black;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+}
+
+.section4{
+    border-style: solid;
+    border-color: black;
+    margin-top: 0%;
+    width: 22%;
+    flex-shrink: 0;
+    min-height: 200px;
+    background-color: lightgray;
+}
+.section5{
+   
+    width: 70%;
+    background-color: white;
+}
+.ph52{
+    font-size: 16px;
+    transform: translate(90px,75px);
+    cursor: pointer;
+}
+.rh52{
+    font-size: 16px;
+    transform: translate(90px,72px);
+    cursor: pointer;
+}
+.home2{
+    font-size: 16px;
+    transform: translate(90px,74px);
+    cursor: pointer;
+}
+.icon2{
+    font-size: 25px;
+    transform: translate(40px,100px);
+}
+.requesticon2{
+    stroke-width: 1px;
+    font-size: 25px;
+    transform: translate(40px,95px);
+}
+.homeicon2{
+    font-size: 25px;
+    transform: translate(40px,100px);
+}
+.h34{
+    display: flex;
+    transform: translate(50px,60%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+    
+}
+.para4{
+    font-size: 17px;
+    border-style: solid;
+    border-color: black;
+    width: 85%;
+    text-align: center;
+    padding: 10px;
+    background-color:whitesmoke;
+    transform: translate(20px,0px);
+}
+.trash{
+    transform: translate(20px,2px);
+    cursor: pointer;
+}
+.trash:hover{
+    color: red;
+}
+.list4{
+    font-size: 20px;
+    margin-bottom: 60px;
+    transform: translate(30px,50px);
+}
+.container5{
+    flex-shrink: 0;
+    border-style: solid;
+    border-color: black;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 60vh;
+    max-height: 60vh;
+    width: 80%;
+    transform: translate(200px,95px);
+}
+.image4{
+    flex-shrink: 0;
+    transform: translateY(150px);
+    width: 100%;
+    height:35%;
+}
